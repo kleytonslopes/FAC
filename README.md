@@ -15,3 +15,16 @@ Trabalhos da FAC
 > 
 > * César Cardoso
 ---
+
+## Trabalho 2 : Realizando Teste Unitário de Classes
+
+> ## Objetivo
+> * Testar métodos da classe Calculadora
+> 
+
+
+> ## Integrantes
+> 
+> * Kleyton Lopes
+> 
+---
