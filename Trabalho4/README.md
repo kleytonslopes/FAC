@@ -12,314 +12,39 @@
 
 #### Regras de Negócio:
 
--   Campo **Empresa**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 100 Caracteres
-    
--   Campo **Filial**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 100 Caracteres
-    
--   Campo **Nome Completo**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Data de Nascimento**
-    
-    -   Tipo `date`
-        
-    -   Obrigatório
-        
-    -   Não aceitar a data maior que a Atual
-    
--   Campo **Nacionalidade**
-    
-    -   Tipo `text`
-        
-    -   Upercase
-        
-    -   Limite de 50 Caracteres
-    
--   Campo **Grau de Instrução**
-    
-    -   Tipo `text`
-        
-    -   Upercase
-        
-    -   Limite de 100 Caracteres
-    
--   Campo **Nome da Mãe**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Numero de Dependentes**
-    
-    -   Tipo `number`
-        
-    -   Aceitar apenas Numeros
-        
-    -   Limite de 3 Digitos
-    
--   Campo **Estado civil**
-    
-    -   Tipo `text`
-        
-    -   Upercase
-        
-    -   Limite de 50 Caracteres
-    
--   Campo **CPF**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Aceitar apenas Numeros
-        
-    -   Mascara `###.###.###-##`
-        
-    -   Limite de 14 Caracteres
-    
--   Campo **Nome do Cônjuge**
-    
-    -   Tipo `text`
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Numero de Filhos**
-    
-    -   Tipo `number`
-        
-    -   Aceitar apenas Numeros
-        
-    -   Limite de 3 Digitos
-    
--   Campo **Endereço**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Numero** (**_Nº_**)
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Aceitar Numeros e Letras
-        
-    -   Limite de 20 Caracteres
-    
--   Campo **Bairro**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Município**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **UF**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Aceitar apenas Letras
-        
-    -   Limite de 2 Caracteres
-    
--   Campo **CEP**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Aceitar apenas Numeros
-        
-    -   Mascara `#####-###`
-        
-    -   Limite de 9 Caracteres
-    
--   Campo **Fone Residencial**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Aceitar apenas Numeros
-        
-    -   Mascara `(##) ####-####`
-        
-    -   Limite de 14 Caracteres
-    
--   Campo **Fone Celular**
-    
-    -   Tipo `text`
-        
-    -   Aceitar apenas Numeros
-        
-    -   Mascara `(##) #-####-####`
-        
-    -   Limite de 16 Caracteres
-    
--   Campo **Naturalidade**
-    
-    -   Tipo `text`
-        
-    -   Upercase
-        
-    -   Limite de 50 Caracteres
-    
--   Campo **Numero de Serie**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Limite de 100 Caracteres
-    
--   Campo **Data de Expedição**
-    
-    -   Tipo `date`
-        
-    -   Obrigatório
-        
-    -   Não aceitar a data maior que a Atual
-    
--   Campo **Nº da carteira de Identidade**
-    
-    -   Tipo `number`
-        
-    -   Obrigatório
-        
-    -   Aceitar apenas Numeros
-        
-    -   Limite de 20 Digitos
-    
--   Campo **Data de Emissão**
-    
-    -   Tipo `date`
-        
-    -   Obrigatório
-        
-    -   Não aceitar a data maior que a Atual
-    
--   Campo **Órgão emissor**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 10 Caracteres
-    
--   Campo **Nome do Pai**
-    
-    -   Tipo `text`
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Departamento**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Função**
-    
-    -   Tipo `text`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Horário de trabalho**
-    
-    -   Tipo `time`
-        
-    -   Obrigatório
-        
-    -   Upercase
-        
-    -   Limite de 150 Caracteres
-    
--   Campo **Salário inicial**
-    
-    -   Tipo `number`
-        
-    -   Obrigatório
-        
-    -   Mascara `###.###.###,##`
-        
-    -   Limite de 14 Caracteres
-    
--   Campo **Sexo**
-    
-    -   Tipo `radio`
-        
-    -   Obrigatório
-        
-    -   Valores `Masculino`, `Feminino` e `Outro`
-        
-    -   Permitiro a seleção de apenas uma opção
-    
--   Campo **Primeiro emprego?**
-    
-    -   Tipo `checkbox`
-        
-    -   Valor `Sim`
+| Nome do Campo                | Tipo     | Regras                                                       | Obrigatório |
+| ---------------------------- | -------- | ------------------------------------------------------------ | ----------- |
+| Empresa                      | text     | Upercase.<br />100 Caracteres Limites.                       | Sim         |
+| Filial                       | text     | Upercase.<br />Limite de 100 Caracteres.                     | Sim         |
+| Nome Completo                | text     | Upercase.<br />Limite de 150 Caracteres.                     | Sim         |
+| Data de Nascimento           | date     | Não aceitar a data maior que a Atual.                        | Sim         |
+| Nacionalidade                | text     | Upercase.<br />Limite de 50 Caracteres.                      | Sim         |
+| Grau de Instrução            | text     | Upercase.<br />Limite de 100 Caracteres.                     | Não         |
+| Nome da Mãe                  | text     | Upercase.<br />Limite de 150 Catacteres.                     | Sim         |
+| Numero de Dependentes        | number   | Aceitar apenas Numeros.<br />Limite de 3 Digitos.            | Não         |
+| Estado Civil                 | text     | Upercase.<br />Limite de 50 Caracteres.                      | Não         |
+| CPF                          | text     | Aceita apenas Numeros.<br />Limite de 14 Caracteres.<br />Utiliza a Mascara. `###.###.###-##` | Sim         |
+| Nome do Cônjuge              | text     | Upercase.<br />Limite de 150 Caracteres.<br />Inicia desabilitado, e é habilitado quando o Estado Civil for Casado. | Não         |
+| Numero de Filhos             | number   | Aceitar apenas Numeros.<br />Limite de 3 Digitos.            | Não         |
+| Endereço                     | text     | Upercase.<br />Limite de 150 Caracteres.<br />Inicia desabilitado, e é habilitado quando o CEP não é encontrado. | Sim         |
+| Numero                       | text     | Upercase.<br />Aceita apenas numeros e Letras.<br />Limite de 20 Caracteres. | Sim         |
+| Bairro                       | text     | Upercase.<br />Limite de 150 Caracteres.<br />Inicia desabilitado, e é habilitado quando o CEP não é encontrado. | Sim         |
+| Município                    | text     | Upercase.<br />Limite de 150 Caracteres.<br />Inicia desabilitado, e é habilitado quando o CEP não é encontrado. | Sim         |
+| UF                           | text     | Upercase.<br />Aceita apenas Letras<br />Limite de 2 Caracteres.<br />Inicia desabilitado, e é habilitado quando o CEP não é encontrado. | Sim         |
+| CEP                          | text     | Aceita apenas Numeros.<br />Utiliza a Mascara `#####-###`<br />Limite de 9 Caracteres.<br />Preenche os campos, Municipio, Bairro, UF e Endereço consumindo uma API (viacep).<br />Caso o CEP não seja encontrado na API, libera os campos para preenchimento manual. | Sim         |
+| Fone Residencial             | text     | Aceita apenas Numeros.<br />Utiliza a Mascara `(##) ####-####`<br />Limite de 14 Caracteres. | Sim         |
+| Fone Celular                 | text     | Aceita apenas Numeros.<br />Utiliza a Mascara `(##) #-####-####`.<br />Limite de 16 Caracteres. | Não         |
+| Naturalidade                 | text     | Upercase.<br />Limite de 50 Caracteres.                      | Não         |
+| Numero de Serie              | text     | Limite de 100 Caracteres.                                    | Sim         |
+| Data de Expedição            | date     | Não aceitar a data maior que a atual.                        | Sim         |
+| Nº da carteira de Identidade | number   | Aceita aepnas Numero.<br />Limite de 20 Digitos.             | Sim         |
+| Data de Emissão              | date     | Não aceitar a data maior que a Atual.                        | Sim         |
+| Órgão Emissor                | text     | Upercase.<br />Limite de 10 Caracteres.                      | Sim         |
+| Nome do Pai                  | text     | Upercase.<br />Limite de 150 Caracteres.                     | Não         |
+| Departamento                 | text     | Upercase.<br />Limite de 150 Caracteres.                     | Sim         |
+| Função                       | text     | Upercase.<br />Limite de 150 Caracteres.                     | Sim         |
+| Horário de trabalho          | time     | Aceita apenas Numeros.<br />Utiliza a Mascara `##:##`,<br />Limite de 6 Caracteres. | Sim         |
+| Salário Iinicial             | number   | Aceita apenas Numeros.<br />Utiliza a Mascara `###.###.###,##`<br />Limite de 14 Caracteres | Sim         |
+| Sexo                         | select   | Upercase.<br />Conter as Opções: OUTRO, MASCULINO, FEMININO.<br />Permitir apenas a seleção de uma opção | Sim         |
+| Primeiro Emprego             | checkbox | Ter a descrição "Sim"                                        | Não         |
+|                              |          |                                                              |             |
